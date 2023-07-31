@@ -10,41 +10,48 @@
     <header>
         <!--Nav Section-->
         <section id="headerNavigation">
-            <a href="">Logo</a>
+            <a id="logo" href="">Logo</a>
             <nav id="navigation">
                 <a href="">Home</a>
-                <a href="">Our Package</a>
-                <a href="">Call Us</a>
+                <a href="">Bookings</a>
+                <a href="">Flights</a>
+                <a href="">About Us</a>
+            </nav>
+            <nav>
+            <a id="callus" href="">Call Us</a>
             </nav>
         </section>
     <!--Title Section-->
         <section id="HeaderTitle">
             <h1>Your Trusted Travel Agent's</h1>
-            <h3 id="subtitle">Your happiness is our happiness</h3>
+            <p id="subtitle">Your happiness is our happiness</P>
         </section>
     </header>
     <!--content-->
     <main>
         <section id="callus">
             <article id="article">
-                <img id="articleimg1" src="https://images.unsplash.com/photo-1505832018823-50331d70d237?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1208&q=80">
-                <h5>Buy it now!</h5>
+                <img src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80">
+                <p><i>"Holidays are more enjoyable with Crisis Travel."</i></p>
             </article>
+            </div>
             <section id="form">
                 <h3 class="titlesubtitle">Contact Us</h3>
-                <h5 class="titlesubtitle">Sales akan menghubungi anda dalam waktu 24 jam</h5><br><br>
+                <h6 class="titlesubtitle2">Sales akan menghubungi anda<br>
+                    dalam waktu 24jam</h6><br>
                 <form action="">
                     <label for="yname">Your Name:</label><br>
-                    <input type="text" id="yname" name="yname"><br><br>
+                    <input placeholder="First and last name" type="text" id="yname" name="yname"><br><br>
                     <label for="Email">Email Address:</label><br>
-                    <input type="text" id="email" name="email"><br><br>
+                    <input placeholder="example@gmail.com" type="text" id="email" name="email"><br><br>
 
-                <label for="cars">Choose a car:</label><br>
-                <select name="cars" id="cars">
-                      <option value="volvo">Volvo</option>
-                      <option value="saab">Saab</option>
-                      <option value="mercedes">Mercedes</option>
-                      <option value="audi">Audi</option>
+                <label for="cars">What are you interested in?</label><br>
+                <select name="interest" id="interest">
+                    <option id="interest" value="" disabled selected>Select your interest</option>
+                    <option value="Beach">Beach</option>
+                    <option value="Mountain">Mountain</option>
+                    <option value="">Historical site</option>
+                    <option value="audi">Town</option>
                 </select><br><br>
 
                     <button type="submit" value="submit">Send</button>
