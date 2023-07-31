@@ -1,0 +1,50 @@
+/* HEADER SECTION STYLING */
+
+#headerNavigation {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+#navigation {
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+}
+
+#HeaderTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#subtitle {
+    color: grey;
+    border: 1px solid black;
+}
+
+/* MAIN SECTION STYLING */
+
+
+#callus {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+#article {
+    flex-basis: 50%;
+    border: 1px solid black;
+}
+
+#form {
+    flex-grow: 1;
+    border: 1px solid black;
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
