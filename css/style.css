@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
+    font-size: large;
 }
 
 #navigation {
@@ -36,15 +37,46 @@
 
 #article {
     flex-basis: 50%;
-    border: 1px solid black;
+    border: 1px solid white;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+}
+
+#articleimg1 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: 300px;
 }
 
 #form {
-    flex-grow: 1;
-    border: 1px solid black;
+    border: none;
     background-color: rgb(235, 235, 235);
-    padding: 10px;
+    padding: 35px;
     border-radius: 10px;
-    
+
 }
+
+input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(24, 24, 24);
+    border-radius: 5px;
+    padding: 5px 72px;
+    color: white;
+    text-align: center;
+}
+
+select {
+    border-radius: 5px;
+    padding: 5px 48px;
+    text-align: left;
+
+}
+
 
